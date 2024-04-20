@@ -1,452 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suparna || Home</title>
-    <!-- <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suparna || Home</title>
+  <!-- <link
       rel="stylesheet"
       href="/fontawesome-free-5.12.1-web/css/all.min.css"
     /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    />
-  </head>
-  <body>
-    <!-- Start of nav bar -->
-    <nav class="nav" id="nav">
-      <div class="nav-center">
-        <div class="nav-header">
-          <h2>Web<span style="color: rgb(226, 205, 43)">Dev</span></h2>
-          <button class="nav-btn" id="nav-btn">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
 
-        <ul class="nav-links">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            <a href="projects.html">projects</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- End of navbar -->
-    <!-- Sidebar -->
-    <aside class="sidebar" id="sidebar">
-      <div>
-        <button class="close-btn" id="close-btn">
-          <i class="fas fa-times"></i>
+<body>
+  <!-- Start of nav bar -->
+  <nav class="nav" id="nav">
+    <div class="nav-center">
+      <div class="nav-header">
+        <h2>Web<span style="color: rgb(226, 205, 43)">Dev</span></h2>
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
         </button>
-        <ul class="sidebar-links">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            <a href="projects.html">projects</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-        </ul>
-        <!-- social icons -->
-        <ul class="social-icons">
-          <li>
-          <a href="https://www.linkedin.com" target="_blank" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@QA-initi" target="_blank" class="social-icon">
-            <i class="fab fa-medium"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://dev.to/@suparnadas01" target="_blank" class="social-icon">
-            <i class="fab fa-dev"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com/@dassupar" target="_blank" class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/@suparnas-testautomation1224" target="_blank" class="social-icon">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </li>
-        </ul>
       </div>
-    </aside>
-    <!-- End of sidebar -->
-    <!-- Hero -->
-    <header class="hero">
-      <div class="section-center hero-center">
-        <article class="hero-info">
-          <!-- <div class="underline"></div> -->
-          <!-- <h1>I'm Suparna</h1>
-          <h4>Web & Mobile Developer in Test</h4> -->
-          <h2>
-            i'm a
-            <span style="--i: 0" data-text="Suparna..">Suparna..</span>
-            <span style="--i: 1" data-text="Engineer..">Engineer..</span>
-            <span style="--i: 2" data-text="Software..">Software..</span>
-          </h2>
-          <a href="contact.html" class="btn hero-btn">connect</a>
-          <!-- social icons -->
-          <ul class="social-icons hero-icons">
-             <li>
-          <a href="https://www.linkedin.com" target="_blank" class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@QA-initi" target="_blank" class="social-icon">
-            <i class="fab fa-medium"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://dev.to/@suparnadas01" target="_blank" class="social-icon">
-            <i class="fab fa-dev"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com/@dassupar" target="_blank" class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/@suparnas-testautomation1224" target="_blank" class="social-icon">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </li>
-          </ul>
-        </article>
-        <article class="hero-img">
-          <img src="/images/heroimg1.png" class="hero-photo" alt="herophoto" />
-        </article>
-      </div>
-    </header>
-    <!-- End of Hero -->
-    <!-- about -->
-    <section class="section about">
-      <div class="section-center about-center">
-        <!-- about img -->
-        <article class="about-img">
-          <img src="./images/aboutme1.png" class="hero-photo" alt="about img" />
-        </article>
-        <!-- about info -->
-        <article class="about-info">
-          <!-- section title -->
-          <div class="section-title about-title">
-            <h2>about me</h2>
-            <div class="underline"></div>
-          </div>
-          <!--end of section title -->
-          <p>
-            As a dedicated software test enginneer, I am passionate ensuring the quality and reliability of software products. With a strong background in manual and automated testing methodologoes, i strive to identify and resolve issues early on. My attention to detail, problem solving skills and commitment to continous improvement enables me to effectively collaborate with cross functional teams and drive the quality assurance initiative forward.
-          </p>
-          
-          <a href="about.html" class="btn">about me</a>
-        </article>
-      </div>
-    </section>
-    <!-- end of about -->
-    <!-- Web Projects -->
-    <section class="section project">
-      <!-- section title -->
-      <div class="section-title">
-        <h2>Dev Projects</h2>
-        <div class="underline"></div>
-      </div>
-      <!--end of section title -->
-      <div class="section-center project-center">
-        <!-- single article -->
-        <div class="card">
-          <!-- front of the card -->
-          <div class="project-side project-front">
-            <img src="./images/FilterMenu.png" alt="" />
-            <div class="project-info">
-              <h4>Filter Menu</h4>
-              <p>
-                This application provides a list of food items and user have option to click on the different menu items and the page will render the items related to the menu.  
-              </p>
-              <div class="text-center">
-                <a
-                  href="https://react-menus-filter.netlify.app/"
-                  target="_blank"
-                  >Preview</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single article -->
-        <!-- single article -->
-        <div class="card">
-          <!-- front of the card -->
-          <div class="project-side project-front">
-            <img src="./images/GithubUser.png" alt="" />
-            <div class="project-info">
-              <h4>Search Github</h4>
-              <p>
-               This application allows user to login using the authenticated method and search the Github API. Search result displays the queried Github user items.
-              </p>
-              <div class="text-center">
-                <a
-                  href="https://search-github-users-v1.netlify.app/login"
-                  target="_blank"
-                  >Preview</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of single article -->
-        
-      </div>
-    </section>
-    <!--end of Web project -->
-    <!--Skill section -->
-    <section class="testsection skillsecion">
-      <!-- section title -->
-      <div class="section-title">
-        <h2>Test Stack</h2>
-        <div class="underline"></div>
-      </div>
-      <!--end of section title -->
-      <div class="section-center skillsection-center">
-        <!-- single article -->
-        <div class="skill">
-          <div class="skillcard">
-             <!-- skill-1 -->
-            <span class="skillicon">
-                <!-- <i class="fab fa-html5" ></i> -->
-                 <i class="fa-solid fa-h"></i>
-            </span>
-            <h4>HTML&CSS</h4>
-            <p>Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.</p>
-        </div>
-          </div>
-        <!-- end of single article -->
-         <!-- single article -->
-        <div class="skill">
-          <div class="skillcard">
-             <!-- skill-1 -->
-            <span class="skillicon">
-             <i class="fa-solid fa-s"></i>
-            </span>
-            <h4>Selenium with TestNg</h4>
-            <p>Experience in developing automated test using selenium, java and testng. Also including selenium, testng with cucumber.</p>
-        </div>
-          </div>
-        <!-- end of single article -->
-         <!-- single article -->
-        <div class="skill">
-          <div class="skillcard">
-             <!-- skill-1 -->
-            <span class="skillicon">
-                <i class="fa-solid fa-t"></i>
-            </span>
-            <h4>TOSCA</h4>
-            <p>Experience in developing end to end test for the patient application portal for both web application and postgres database.</p>
-        </div>
-          </div>
-        <!-- end of single article -->
-         <!-- single article -->
-        <div class="skill">
-          <div class="skillcard">
-             <!-- skill-1 -->
-            <span class="skillicon">
-                <i class="fa-solid fa-p"></i>
-            </span>
-            <h4>Playwright</h4>
-            <p>Experience in developing end to end automated test using Playwright with Javascript.</p>
-        </div>
-          </div>
-        <!-- end of single article -->
-         <!-- single article -->
-        <div class="skill">
-          <div class="skillcard">
-             <!-- skill-1 -->
-            <span class="skillicon">
-                <i class="fa-solid fa-c"></i>
-            </span>
-            <h4>Cypress</h4>
-            <p>Experience in developing end to end automated test using Cypress and Javascript.</p>
-        </div>
-          </div>
-        <!-- end of single article -->
-         <!-- single article -->
-        <div class="skill">
-          <div class="skillcard">
-             <!-- skill-1 -->
-            <span class="skillicon">
-                <i class="fa-solid fa-w"></i>
-            </span>
-            <h4>WebdriverIO</h4>
-            <p>Experience in developing end to end automated test using WebdriverIO and Javascript</p>
-        </div>
-          </div>
-        <!-- end of single article -->
-        
-       
-    </div>
-      </div>
-    </section>
-    <!--end of  Test project -->
-    <!-- blog -->
-    <section class="section blog">
-      <!-- section title -->
-      <div class="section-title">
-        <h2>blog</h2>
-        <div class="underline"></div>
-      </div>
-      <!--end of section title -->
-      <div class="section-center blog-center">
-        <!-- single article -->
-        <div class="card">
-          <!-- front of the card -->
-          <div class="card-side card-front">
-            <img src="./images/cypress-blog.png" alt="" />
-            <div class="card-info">
-              <h4>installing cypress</h4>
-              <p>
-                One of the roadblock which you might have experienced while
-                trying to install cypress in the Corporate work environment is
-                that while running Cypress installation command...
-              </p>
-              <div class="card-footer">
-                <img src="./images/heroimg1-small.png" alt="author image" />
-                <p>2 min read</p>
-              </div>
-            </div>
-          </div>
-          <!-- card back  -->
-          <div class="card-side card-back">
-            <button class="btn">
-              <a
-                href="https://medium.com/@QA-initi/how-to-install-cypress-in-window-using-zip-file-if-npm-cypress-fails-5007162136e9"
-                target="_blank"
-                >read more</a
-              >
-            </button>
-          </div>
-        </div>
-        <!-- end of single article -->
-        <!-- single article -->
-        <div class="card">
-          <!-- front of the card -->
-          <div class="card-side card-front">
-            <img src="./images/Salesforceblog.png" alt="" />
-            <div class="card-info">
-              <h4>salesforce rest api</h4>
-              <p>
-                Salesforce Rest API is a open source api from forcedotcom to
-                enable easy access to salesforce objects and metadata without
-                using Salesforce UI itself....
-              </p>
-              <div class="card-footer">
-                <img src="./images/heroimg1-small.png" alt="author image" />
-                <p>2 min read</p>
-              </div>
-            </div>
-          </div>
-          <!-- card back  -->
-          <div class="card-side card-back">
-            <button class="btn">
-              <a
-                href="https://medium.com/@QA-initi/part-1-connect-to-salesforce-rest-api-using-postman-b07258ca9898"
-                target="_blank"
-                >read more</a
-              >
-            </button>
-          </div>
-        </div>
-        <!-- end of single article -->
-        <!-- single article -->
-        <div class="card">
-          <!-- front of the card -->
-          <div class="card-side card-front">
-            <img src="./images/React-blog.png" alt="" />
-            <div class="card-info">
-              <h4>react code syntax</h4>
-              <p>
-                In this post we will look at the difference between these two
-                codes syntax: onClick={()=> removeItem(id)}, and
-                onClick={removeItem(id)}. They both seems to look same, but one
-                will cause the code to fail...
-              </p>
-              <div class="card-footer">
-                <img src="./images/heroimg1-small.png" alt="author image" />
-                <p>2 min read</p>
-              </div>
-            </div>
-          </div>
-          <!-- card back  -->
-          <div class="card-side card-back">
-            <button class="btn">
-              <a
-                href="https://medium.com/@QA-initi/react-the-different-between-these-two-codes-syntax-onclick-removeitem-id-and-aa9ee07a56c8"
-                target="_blank"
-                >read more</a
-              >
-            </button>
-          </div>
-        </div>
-        <!-- end of single article -->
-        <!-- single article -->
-        <div class="card">
-          <!-- front of the card -->
-          <div class="card-side card-front">
-            <img src="./images/React-error.png" alt="" />
-            <div class="card-info">
-              <h4>react openssl error</h4>
-              <p>
-                In this post we will look into openssl error. OpensslErrorStack
-                is the error encountered when we try to run React project which
-                was built with version 16...
-              </p>
-              <div class="card-footer">
-                <img src="./images/heroimg1-small.png" alt="author image" />
-                <p>2 min read</p>
-              </div>
-            </div>
-          </div>
-          <!-- card back  -->
-          <div class="card-side card-back">
-            <button class="btn">
-              <a
-                href="https://medium.com/@QA-initi/fixing-opensslerrorstack-in-old-version-of-react-project-22169aa8683e"
-                target="_blank"
-                >read more</a
-              >
-            </button>
-          </div>
-        </div>
-        <!-- end of single article -->
-      </div>
-    </section>
-    <!--end of  blog -->
 
-    <!-- footer section starts  -->
-    <footer class="footer">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End of navbar -->
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul class="sidebar-links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
       <!-- social icons -->
       <ul class="social-icons">
         <li>
@@ -475,11 +91,388 @@
           </a>
         </li>
       </ul>
+    </div>
+  </aside>
+  <!-- End of sidebar -->
+  <!-- Hero -->
+  <header class="hero">
+    <div class="section-center hero-center">
+      <article class="hero-info">
+        <!-- <div class="underline"></div> -->
+        <!-- <h1>I'm Suparna</h1>
+          <h4>Web & Mobile Developer in Test</h4> -->
+        <h2>
+          i'm
+          <span style="--i: 0" data-text="Suparna..">Suparna..</span>
+          <span style="--i: 1" data-text="Engineer..">Engineer..</span>
+          <span style="--i: 2" data-text="Software..">Software..</span>
+        </h2>
+        <a href="contact.html" class="btn hero-btn">connect</a>
+        <!-- social icons -->
+        <ul class="social-icons hero-icons">
+          <li>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@QA-initi" target="_blank" class="social-icon">
+              <i class="fab fa-medium"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dev.to/@suparnadas01" target="_blank" class="social-icon">
+              <i class="fab fa-dev"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/@dassupar" target="_blank" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@suparnas-testautomation1224" target="_blank" class="social-icon">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="hero-img">
+        <img src="/images/Profilepic-1.jpg" class="hero-photo" alt="herophoto" />
+      </article>
+    </div>
+  </header>
+  <!-- End of Hero -->
+  <!-- about -->
+  <section class="section about">
+    <div class="section-center about-center">
+      <!-- about img -->
+      <article class="about-img">
+        <img src="./images/Profilepic-2.jpeg" class="hero-photo" alt="about img" />
+      </article>
+      <!-- about info -->
+      <article class="about-info">
+        <!-- section title -->
+        <div class="section-title about-title">
+          <h2>about me</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p>
+          As a dedicated software test enginneer, I am passionate ensuring the quality and reliability of software
+          products. With a strong background in manual and automated testing methodologoes, i strive to identify and
+          resolve issues early on. My attention to detail, problem solving skills and commitment to continous
+          improvement enables me to effectively collaborate with cross functional teams and drive the quality assurance
+          initiative forward.
+        </p>
 
-      <p>&copy; <span id="date"></span> dassupar || all rights reserved</p>
-    </footer>
-    <!-- Footer ends here -->
+        <a href="about.html" class="btn">about me</a>
+      </article>
+    </div>
+  </section>
+  <!-- end of about -->
+  <!-- Web Projects -->
+  <section class="section project">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>Dev Projects</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center project-center">
+      <!-- single article -->
+      <div class="card">
+        <!-- front of the card -->
+        <div class="project-side project-front">
+          <img src="./images/FilterMenu.png" alt="" />
+          <div class="project-info">
+            <h4>Filter Menu</h4>
+            <p>
+              This application provides a list of food items and user have option to click on the different menu items
+              and the page will render the items related to the menu.
+            </p>
+            <div class="text-center">
+              <a href="https://react-menus-filter.netlify.app/" target="_blank">Preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="card">
+        <!-- front of the card -->
+        <div class="project-side project-front">
+          <img src="./images/GithubUser.png" alt="" />
+          <div class="project-info">
+            <h4>Search Github</h4>
+            <p>
+              This application allows user to login using the authenticated method and search the Github API. Search
+              result displays the queried Github user items.
+            </p>
+            <div class="text-center">
+              <a href="https://search-github-users-v1.netlify.app/login" target="_blank">Preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of single article -->
 
-    <script src="./js/app.js"></script>
-  </body>
+    </div>
+  </section>
+  <!--end of Web project -->
+  <!--Skill section -->
+  <section class="testsection skillsecion">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>Test Stack</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center skillsection-center">
+      <!-- single article -->
+      <div class="skill">
+        <div class="skillcard">
+          <!-- skill-1 -->
+          <span class="skillicon">
+            <!-- <i class="fab fa-html5" ></i> -->
+            <i class="fa-solid fa-h"></i>
+          </span>
+          <h4>HTML&CSS</h4>
+          <p>Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user
+            experiences.</p>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="skill">
+        <div class="skillcard">
+          <!-- skill-1 -->
+          <span class="skillicon">
+            <i class="fa-solid fa-s"></i>
+          </span>
+          <h4>Selenium with TestNg</h4>
+          <p>Experience in developing automated test using selenium, java and testng. Also including selenium, testng
+            with cucumber.</p>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="skill">
+        <div class="skillcard">
+          <!-- skill-1 -->
+          <span class="skillicon">
+            <i class="fa-solid fa-t"></i>
+          </span>
+          <h4>TOSCA</h4>
+          <p>Experience in developing end to end test for the patient application portal for both web application and
+            postgres database.</p>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="skill">
+        <div class="skillcard">
+          <!-- skill-1 -->
+          <span class="skillicon">
+            <i class="fa-solid fa-p"></i>
+          </span>
+          <h4>Playwright</h4>
+          <p>Experience in developing end to end automated test using Playwright with Javascript.</p>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="skill">
+        <div class="skillcard">
+          <!-- skill-1 -->
+          <span class="skillicon">
+            <i class="fa-solid fa-c"></i>
+          </span>
+          <h4>Cypress</h4>
+          <p>Experience in developing end to end automated test using Cypress and Javascript.</p>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="skill">
+        <div class="skillcard">
+          <!-- skill-1 -->
+          <span class="skillicon">
+            <i class="fa-solid fa-w"></i>
+          </span>
+          <h4>WebdriverIO</h4>
+          <p>Experience in developing end to end automated test using WebdriverIO and Javascript</p>
+        </div>
+      </div>
+      <!-- end of single article -->
+
+
+    </div>
+    </div>
+  </section>
+  <!--end of  Test project -->
+  <!-- blog -->
+  <section class="section blog">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>blog</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center blog-center">
+      <!-- single article -->
+      <div class="card">
+        <!-- front of the card -->
+        <div class="card-side card-front">
+          <img src="./images/cypress-blog.png" alt="" />
+          <div class="card-info">
+            <h4>installing cypress</h4>
+            <p>
+              One of the roadblock which you might have experienced while
+              trying to install cypress in the Corporate work environment is
+              that while running Cypress installation command...
+            </p>
+            <div class="card-footer">
+              <img src="./images/heroimg1-small.png" alt="author image" />
+              <p>2 min read</p>
+            </div>
+          </div>
+        </div>
+        <!-- card back  -->
+        <div class="card-side card-back">
+          <button class="btn">
+            <a href="https://medium.com/@QA-initi/how-to-install-cypress-in-window-using-zip-file-if-npm-cypress-fails-5007162136e9"
+                                                                                            target="_blank">read
+              more</a>
+          </button>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="card">
+        <!-- front of the card -->
+        <div class="card-side card-front">
+          <img src="./images/Salesforceblog.png" alt="" />
+          <div class="card-info">
+            <h4>salesforce rest api</h4>
+            <p>
+              Salesforce Rest API is a open source api from forcedotcom to
+              enable easy access to salesforce objects and metadata without
+              using Salesforce UI itself....
+            </p>
+            <div class="card-footer">
+              <img src="./images/heroimg1-small.png" alt="author image" />
+              <p>2 min read</p>
+            </div>
+          </div>
+        </div>
+        <!-- card back  -->
+        <div class="card-side card-back">
+          <button class="btn">
+            <a href="https://medium.com/@QA-initi/part-1-connect-to-salesforce-rest-api-using-postman-b07258ca9898"
+                                                                                            target="_blank">read
+              more</a>
+          </button>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="card">
+        <!-- front of the card -->
+        <div class="card-side card-front">
+          <img src="./images/React-blog.png" alt="" />
+          <div class="card-info">
+            <h4>react code syntax</h4>
+            <p>
+              In this post we will look at the difference between these two
+              codes syntax: onClick={()=> removeItem(id)}, and
+              onClick={removeItem(id)}. They both seems to look same, but one
+              will cause the code to fail...
+            </p>
+            <div class="card-footer">
+              <img src="./images/heroimg1-small.png" alt="author image" />
+              <p>2 min read</p>
+            </div>
+          </div>
+        </div>
+        <!-- card back  -->
+        <div class="card-side card-back">
+          <button class="btn">
+            <a href="https://medium.com/@QA-initi/react-the-different-between-these-two-codes-syntax-onclick-removeitem-id-and-aa9ee07a56c8"
+                                                                                            target="_blank">read
+              more</a>
+          </button>
+        </div>
+      </div>
+      <!-- end of single article -->
+      <!-- single article -->
+      <div class="card">
+        <!-- front of the card -->
+        <div class="card-side card-front">
+          <img src="./images/React-error.png" alt="" />
+          <div class="card-info">
+            <h4>react openssl error</h4>
+            <p>
+              In this post we will look into openssl error. OpensslErrorStack
+              is the error encountered when we try to run React project which
+              was built with version 16...
+            </p>
+            <div class="card-footer">
+              <img src="./images/heroimg1-small.png" alt="author image" />
+              <p>2 min read</p>
+            </div>
+          </div>
+        </div>
+        <!-- card back  -->
+        <div class="card-side card-back">
+          <button class="btn">
+            <a href="https://medium.com/@QA-initi/fixing-opensslerrorstack-in-old-version-of-react-project-22169aa8683e"
+                                                                                            target="_blank">read
+              more</a>
+          </button>
+        </div>
+      </div>
+      <!-- end of single article -->
+    </div>
+  </section>
+  <!--end of  blog -->
+
+  <!-- footer section starts  -->
+  <footer class="footer">
+    <!-- social icons -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://medium.com/@QA-initi" target="_blank" class="social-icon">
+          <i class="fab fa-medium"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://dev.to/@suparnadas01" target="_blank" class="social-icon">
+          <i class="fab fa-dev"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/@dassupar" target="_blank" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@suparnas-testautomation1224" target="_blank" class="social-icon">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p>&copy; <span id="date"></span> dassupar || all rights reserved</p>
+  </footer>
+  <!-- Footer ends here -->
+
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
